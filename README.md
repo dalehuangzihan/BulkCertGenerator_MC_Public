@@ -3,12 +3,12 @@ Bulk Certificate Generator with MailChimp Integration (Python)
 
 A simple two-part Python script used for the FUTURE Conference 2020: 
 
-##CertGenerator: 
+## CertGenerator: 
 - Consumes a CSV file of names and a PNG template, email addresses etc. 
 - Creates a local dir of PNG and PDF certificates for each CSV entry 
 - (Pandas, OpenCV and PIL).
 
-##MCScript03: 
+## MCScript03: 
 - Consumes account info (API Key, etc) of a given MailChimp account.
 - Uploads the PDF certificates onto the MailChimp file system;
 - Automatically generates URLs corresponding to each PDF;
